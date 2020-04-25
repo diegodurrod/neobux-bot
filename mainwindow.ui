@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Google Chrome</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/new/icon</normaloff>:/new/icon</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>802</width>
+      <height>633</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTabWidget" name="Tabs">
+       <property name="minimumSize">
+        <size>
+         <width>800</width>
+         <height>631</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>800</width>
+         <height>631</height>
+        </size>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <property name="documentMode">
+        <bool>false</bool>
+       </property>
+       <widget class="QWidget" name="PTR">
+        <attribute name="title">
+         <string>Tab 1</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="Ad">
+        <attribute name="title">
+         <string>Tab 2</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>802</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBotones">
+    <property name="title">
+     <string>Acción</string>
+    </property>
+    <addaction name="actionIdentificar"/>
+    <addaction name="actionVer_Anuncios"/>
+    <addaction name="separator"/>
+    <addaction name="actionHacer_Click_a_los_anuncios"/>
+    <addaction name="actionHacer_Click_Punto_Rojo"/>
+    <addaction name="actionSiguiente_AdPrize"/>
+    <addaction name="separator"/>
+    <addaction name="actionVer_variable_sVL"/>
+    <addaction name="separator"/>
+    <addaction name="actionVolver"/>
+    <addaction name="actionRenovar_WebView"/>
+   </widget>
+   <widget class="QMenu" name="menuIr_a">
+    <property name="title">
+     <string>Ir a...</string>
+    </property>
+    <addaction name="actionBase"/>
+    <addaction name="actionLogin"/>
+    <addaction name="actionEarnings"/>
+    <addaction name="separator"/>
+    <addaction name="actionInbox"/>
+    <addaction name="actionPtc1"/>
+    <addaction name="actionPtc2"/>
+    <addaction name="actionPtc3"/>
+   </widget>
+   <addaction name="menuBotones"/>
+   <addaction name="menuIr_a"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCargar">
+   <property name="text">
+    <string>Cargar</string>
+   </property>
+  </action>
+  <action name="actionBase">
+   <property name="text">
+    <string>Base</string>
+   </property>
+  </action>
+  <action name="actionLogin">
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+  <action name="actionEarnings">
+   <property name="text">
+    <string>Earnings</string>
+   </property>
+  </action>
+  <action name="actionInbox">
+   <property name="text">
+    <string>Inbox</string>
+   </property>
+  </action>
+  <action name="actionPtc1">
+   <property name="text">
+    <string>Ptc1</string>
+   </property>
+  </action>
+  <action name="actionPtc2">
+   <property name="text">
+    <string>Ptc2</string>
+   </property>
+  </action>
+  <action name="actionPtc3">
+   <property name="text">
+    <string>Ptc3</string>
+   </property>
+  </action>
+  <action name="actionClick_correo">
+   <property name="text">
+    <string>Click correo</string>
+   </property>
+  </action>
+  <action name="actionClick_ad">
+   <property name="text">
+    <string>Click ad</string>
+   </property>
+  </action>
+  <action name="actionEliminar_correo">
+   <property name="text">
+    <string>Eliminar correo</string>
+   </property>
+  </action>
+  <action name="actionComod_n">
+   <property name="text">
+    <string>Comodín</string>
+   </property>
+  </action>
+  <action name="actionIdentificar">
+   <property name="text">
+    <string>Identificarse</string>
+   </property>
+  </action>
+  <action name="actionVer_Anuncios">
+   <property name="text">
+    <string>Ver Anuncios</string>
+   </property>
+  </action>
+  <action name="actionHacer_Click_a_los_anuncios">
+   <property name="text">
+    <string>Hacer Click a los anuncios</string>
+   </property>
+  </action>
+  <action name="actionHacer_Click_Punto_Rojo">
+   <property name="text">
+    <string>Hacer Click Punto Rojo</string>
+   </property>
+  </action>
+  <action name="actionVolver">
+   <property name="text">
+    <string>Volver</string>
+   </property>
+  </action>
+  <action name="actionSiguiente_AdPrize">
+   <property name="text">
+    <string>Siguiente AdPrize</string>
+   </property>
+  </action>
+  <action name="actionVer_variable_sVL">
+   <property name="text">
+    <string>Ver variable sVL</string>
+   </property>
+  </action>
+  <action name="actionRenovar_WebView">
+   <property name="text">
+    <string>Renovar WebView</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

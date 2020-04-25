@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new">
+        <file alias="icon">Google-Chrome-Google-Chrome.ico</file>
+    </qresource>
+</RCC>
